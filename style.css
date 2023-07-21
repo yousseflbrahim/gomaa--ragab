@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Quicksand:wght@300;400;500;600;700&family=Roboto:ital,wght@0,400;1,300;1,400&family=Work+Sans:wght@200;300;400;500;600;700;800&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    overflow: hidden;
+    background: linear-gradient( to right , #01022d,#000 120%);
+    min-height: 100vh;
+    
+}
+
+
+header{
+    width: 100%;
+    padding: 50px 200px;
+}
+
+.logo{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: rgb(112, 94, 250);
+    font-size: 50px;
+    font-weight: 700;
+}
+
+.main{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    color: aliceblue;
+    padding-bottom: 250px;
+    padding-left: 200px;
+}
+
+.main h2{
+    color: #fff;
+    font-size: 17px;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
+.main h2 span{
+    display: inline-block;
+    margin-top: 10px;
+    font-size:40px ;
+    color: #3d40ea;
+    font-weight: 600;
+}
+
+.main h3{
+    color: #fff;
+    text-transform: capitalize;
+    font-size: 25px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+
+.main-but{
+    text-decoration: none;
+    color: #fff;
+    background: #3d40ea;
+    font-size: 17px;
+    font-weight: 600;
+    display: inline-block;
+    padding: 15px 35px;
+    letter-spacing: 1px; 
+    border-radius: 10px;
+    margin-bottom: 40px;
+    transition: 0.7s;
+}
+
+.main-but:hover{
+    background: #0a49f6;
+    transform: scale(1.1);
+}
+
+.img img{
+    width: 400px;
+    margin-left: 170px;
+    border: #0a49f6 solid 15px;
+    padding: 50px;
+    border-radius: 10px;
+    margin-bottom: 100px;
+}
+
+@media (max-width:950px){
+
+    body{
+        overflow: hidden;
+        min-height: 100vh;
+    }
+
+    header{
+        padding: 20px 40px;
+    }
+
+    .logo{
+        font-size: 25px;
+    }
+
+    .main{
+        padding-left:10px ;
+        margin-bottom: 100px;
+    }
+
+    .main h2 span{
+        font-size: 20px;
+
+    }
+
+    .main h2{
+        font-size: 12px;
+    }
+
+    .main h3{
+        font-size: 14px;
+    }
+
+    .main-but{
+        font-size: 10px;
+        padding: 7.5px 17.5;
+    }
+
+    .img img{
+        width: 150px;
+        margin-left: 0;
+        margin-right: 50px;
+        padding: 10px;
+        border: #0a49f6 solid 5px;
+        margin-bottom: 60px;
+    }
+}

@@ -1,0 +1,195 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Quicksand:wght@300;400;500;600;700&family=Roboto:ital,wght@0,400;1,300;1,400&family=Work+Sans:wght@200;300;400;500;600;700;800&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+.container{
+   display: flex;
+   justify-content: center;
+   padding-top: 5rem;
+   width: 100%; 
+}
+
+.header .img img{
+    width: 150px;
+    margin-left: 110px;
+    margin-bottom: 20px;
+    border-radius: 50%;
+    height: 220px;
+}
+
+.header h1{
+    font-size: 50px;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.header h4{
+    text-align: center;
+}
+
+.header .cintent{
+    text-align: center;
+    margin-top: 10px;
+}
+
+.header .cintent #lob{
+    font-size: 20px;
+}
+
+.header .cintent a{
+    text-decoration: none;
+}
+
+.header .cintent .amil{
+    display: inline-block;
+    font-size: 30px;
+    margin-top: 10px;
+    color: white;
+    transition: 0.7s;
+}
+
+.header .cintent .amil i{
+    color: black;
+    display: flex;
+}
+
+.header .cintent .amil:hover{
+    transform: scale(1.2);
+}
+
+.header .cintent .link{
+    font-size: 30px;
+    margin-left: 15px;
+    color: #378fe9;
+    display: inline-block;
+    transition: 0.7s;
+}
+
+.header .cintent .link:hover{
+    transform:scale( 1.2);
+    color: #0a66c2;;
+}
+
+hr{
+    height: 10px;
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+
+.section{
+    width: 90%;
+    padding-left: 200px;
+}
+
+.section section ul li{
+    font-size: 17px;
+    font-weight: 600;
+}
+
+.section section p{
+    letter-spacing: 1px;
+}
+
+.section section h2{
+    padding-top: 30px;
+    font-weight: 600;
+}
+
+.section section h4{
+    padding-top: 10px;
+    font-weight: 400;
+}
+
+.section section h3{
+    color: green;
+}
+
+.section section h5{
+    padding-top:2.5px ;
+    padding-bottom: 5px;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.section section ul{
+    padding-top: 20px;
+    color:rgb(17, 17, 63);
+}
+
+.section section .h5{
+    font-size: 16px;
+    font-weight: 300;
+    padding-top: 7px;
+}
+
+.section section h1{
+    font-size: 20px;
+    font-weight: 400;
+    padding: 5px 0;
+}
+
+.main{
+    width: 90%;
+    padding-left: 200px;
+}
+
+.main h1{
+    padding-top:60px ;
+    padding-bottom: 10px;
+}
+
+.main section h5{
+    font-weight: 500;
+    padding-bottom: 2.5px;
+}
+
+.main section h3{
+    color: green;
+}
+
+.main section h4{
+    font-weight: 600;
+}
+
+.main section{
+    border-left: 4px solid green;
+    padding-left: 60px;
+}
+
+.main main h3{
+    color: green;
+    padding-bottom:20px ;
+}
+
+.main main ul li{
+    font-size: 25px;
+    font-weight: 700;
+}
+
+.end{
+    height:300px ;
+}
+
+
+
+@media (max-width:950px){
+    .section{
+        width: 100%;
+        padding: 50px;
+    }
+
+    .header .cintent .link{
+        color: #0a66c2;
+    }
+
+    .main{
+        width: 100%;
+        padding: 50px;
+    }
+}
